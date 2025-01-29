@@ -4,6 +4,7 @@ public class Lab031_FunctionWithParametersAndReturn {
     public static void main(String[] args)
     {
         String name=greetWithName("Snehal");
+        System.out.println(name);
         int ans=add(40,50);
         System.out.println("Sum of two no is:"+ans);
     }
