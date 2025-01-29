@@ -1,8 +1,8 @@
-package week2;
+package Ex03_Conditions;
 
 import java.util.Scanner;
 
-public class Lab003_ifElseIfCondition {
+public class Lab017_ifElseIfCondition {
     public static void  main(String[] args)
     {
         System.out.println("Triangle Type based on angle.");

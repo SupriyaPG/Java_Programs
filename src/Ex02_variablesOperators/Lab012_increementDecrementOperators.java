@@ -1,6 +1,6 @@
-package Week1;
+package Ex02_variablesOperators;
 
-public class Lab005_increementDecrementOperators {
+public class Lab012_increementDecrementOperators {
     public static void main(String [] args)
     {
         System.out.println("----------------increment & decrement Operatos--------------");

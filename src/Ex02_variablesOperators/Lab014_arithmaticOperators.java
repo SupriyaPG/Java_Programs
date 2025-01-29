@@ -1,10 +1,10 @@
-package Week1;
+package Ex02_variablesOperators;
 /* In java there are various types of operators like
 arithmetic(+,-,*,/,etc), logical(&&,||,!), relational(==,<>,+>,etc), and increment & decrement operations etc.
 
  */
 
-public class Lab002_arithmaticOperators {
+public class Lab014_arithmaticOperators {
     public static void main(String[] args) {
         //arithmetic operators are symbols of arithmetic expression which operates on 2 operants
         // Declare and initialize variables

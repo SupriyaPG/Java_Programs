@@ -1,10 +1,10 @@
-package Week1;
+package Ex02_variablesOperators;
 /*
 Data Type – The kind of data that it can hold. For example, int, string, float, char, etc.
 Variable Name – To identify the variable uniquely within the scope.
 Value – The data assigned to the variable. */
 
-public class Lab001_VariablesDataTypes {
+public class Lab013_VariablesDataTypes {
     public static void main(String[] args)
     {
         int i=10; //int represents integer datatype

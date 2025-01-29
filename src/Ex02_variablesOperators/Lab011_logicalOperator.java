@@ -1,6 +1,6 @@
-package Week1;
+package Ex02_variablesOperators;
 
-public class Lab004_logicalOperator {
+public class Lab011_logicalOperator {
     public static void main(String[] args)
     {
         /*Logical operators

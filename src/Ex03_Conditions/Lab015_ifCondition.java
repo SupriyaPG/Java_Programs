@@ -1,6 +1,6 @@
-package week2;
+package Ex03_Conditions;
 
-public class Lab001_ifCondition {
+public class Lab015_ifCondition {
     public static void main(String[] args)
     {
         int age=20;

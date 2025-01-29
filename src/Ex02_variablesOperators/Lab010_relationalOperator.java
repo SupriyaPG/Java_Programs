@@ -1,6 +1,6 @@
-package Week1;
+package Ex02_variablesOperators;
 
-public class Lab003_relationalOperator {
+public class Lab010_relationalOperator {
     public  static void main(String [] args)
     {
 
