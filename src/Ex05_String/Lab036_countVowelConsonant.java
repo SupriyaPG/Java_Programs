@@ -1,8 +1,6 @@
 package Ex05_String;
 
-import javax.swing.*;
-
-public class Lab034_countVowelConsonant {
+public class Lab036_countVowelConsonant {
     public static void main(String[] args)
     {
         String name="Pramod";

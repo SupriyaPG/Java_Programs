@@ -2,7 +2,7 @@ package Ex05_String;
 
 import java.util.Scanner;
 
-public class Lab034_palindrome {
+public class Lab037_palindrome {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
