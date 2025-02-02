@@ -2,7 +2,7 @@ package Ex03_Conditions;
 
 import java.util.Scanner;
 
-public class Lab_040_DetermineWebsite {
+public class Lab040_DetermineWebsite {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Lab_040_DetermineWebsite {
 
         for(int i=0; i<3;i++)
         {
-           dom=dom+link.charAt(last);
+           dom=dom + link.charAt(last);
            last++;
 
         }
