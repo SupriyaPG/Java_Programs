@@ -1,8 +1,6 @@
 package Assignments_10x;
 
-import java.io.FilterOutputStream;
-
-public class Ass_06_01_25 {
+public class Ass_05_01_25 {
     public static void main(String[] args)
     {
 
