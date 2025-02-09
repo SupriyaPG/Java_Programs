@@ -1,6 +1,6 @@
 package Assignments_10x;
 
-public class Ass_05_01_25 {
+public class Ass_05_02_25 {
     public static void main(String[] args)
     {
 
