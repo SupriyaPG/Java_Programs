@@ -3,9 +3,12 @@ package Array;
 public class Lab047_declarationOfArray {
     public static void main(String[] args) {
 
+        //Array is a collection of homogeneous data
+
         //single dimensional array like a[] it has only rows
         //Approach 1 --> when values are fixed then use this is use declaration
         /*
+
         int a[]=new int[5];//array declaration
         a[0]=100;
         a[1]=200;
