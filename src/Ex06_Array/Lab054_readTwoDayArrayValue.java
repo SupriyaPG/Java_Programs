@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 public class Lab054_readTwoDayArrayValue {
     public static void main(String[] args) {

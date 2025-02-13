@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 import java.util.Arrays;
 
 public class Lab062_sortingArray_inbuiltFunction {

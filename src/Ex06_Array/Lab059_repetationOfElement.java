@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 public class Lab059_repetationOfElement {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 public class Lab052_twoDArrayDeclaration {
     public static void main(String[] args) {

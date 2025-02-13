@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 import java.util.Arrays;
 

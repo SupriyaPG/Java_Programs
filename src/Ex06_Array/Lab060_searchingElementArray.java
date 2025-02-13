@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 //finding element in a array or Linear search
 

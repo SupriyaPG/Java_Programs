@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 public class Lab056_enhancedForLoop_2DArray {
     public static void main(String[] args) {

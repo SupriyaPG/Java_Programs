@@ -1,4 +1,4 @@
-package Array;
+package Ex06_Array;
 
 public class Lab057_heterogeneousArray {
     public static void main(String[] args) {
