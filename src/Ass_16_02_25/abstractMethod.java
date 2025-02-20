@@ -1,4 +1,6 @@
-public class Ass_16_02_25 {
+package Ass_16_02_25;
+
+public class abstractMethod {
     public static void main(String[] args) {
     book bk=new printBook("Harry Potter","J.K. Rowling",120);
     bk.getDetails();
