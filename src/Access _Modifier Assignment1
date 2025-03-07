@@ -1,0 +1,43 @@
+1) What are the four types of access modifiers in Java? and what are their scopes?
+Types of Access Modifiers
+
+There are 4 types of access modifiers available in Java: 
+
+Default – No keyword required
+
+Private
+
+Protected
+
+Public
+
+1. Default Access Modifier
+When no access modifier is specified for a class, method, or data member, it is said to be having the default access modifier by default. The default access modifiers are accessible only within the same package.
+
+2. Private Access Modifier
+
+The private access modifier is specified using the keyword private. The methods or data members declared as private are accessible only within the class in which they are declared.
+
+3. Protected Access Modifier
+
+The protected access modifier is specified using the keyword protected. The methods or data members declared as protected are accessible within the same package or subclasses in different packages.
+
+4. Public Access Modifier
+
+The public access modifier is specified using the keyword public. 
+
+The public access modifier has the widest scope among all other access modifiers.
+
+Classes, methods, or data members that are declared as public are accessible from everywhere in the program. There is no restriction on the scope of public data members.
+
+2) Can we override a private method?
+No, you cannot overload a private method in Java. This is because private methods are not accessible outside of the class in which they are declared.
+
+3) What is the difference between default and protected access modifiers?
+The Protected access specifier is visible within the same package and also visible in the subclass whereas the Default is a package level access specifier and it can be visible in the same package.
+
+4) Can a subclass access a private member of its superclass?
+No, a subclass cannot directly access a private member of its superclass; private members are only accessible within the class they are defined in, so a subclass is considered "outside" the superclass in terms of access to private members.
+
+5) What is the default access modifier in Java, and where is it applicable?
+In Java, the "default" access modifier is applied when no explicit access modifier is specified, meaning it's considered "package-private" - this means that a class, method, or variable with default access can only be accessed by other classes within the same package. 
