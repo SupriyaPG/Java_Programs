@@ -1,0 +1,133 @@
+6) Why is the private access modifier used in encapsulation?
+
+The "private" access modifier is used in encapsulation because it allows developers to restrict access to class members (variables and methods) to only within the class itself, effectively hiding sensitive data and implementation details, ensuring that only the intended methods can manipulate the data, thus upholding the core principles of encapsulation and data protection. 
+
+A)1. Encapsulation is the principle of data hiding, ensuring that the internal state of an object is protected from unintended modifications.
+
+Yes, that's correct. Encapsulation, a core concept in object-oriented programming.
+
+2.The private modifier restricts direct access to fields and methods, enforcing controlled access via getters and setters.
+
+The private access modifier ensures that the members (fields, methods, constructors) of a class are only accessible within the same class. It is commonly used to enforce encapsulation and prevent unauthorized access from outside the class.
+
+3.This improves data integrity and security by preventing unauthorized changes.
+
+Yes, encapsulation enhances data integrity and security by restricting direct access to an object's internal data, ensuring only authorized methods can modify it, thereby preventing unauthorized changes to the information. 
+
+7) Write a program to demonstrate the use of public, private, protected, and default access modifiers.
+
+1.Public
+
+// Animal.java file
+
+// public class
+
+public class Animal {
+
+    // public variable
+
+    public int legCount;
+
+    // public method
+
+    public void display() {
+
+        System.out.println("I am an animal.");
+
+        System.out.println("I have " + legCount + " legs.");
+
+    }
+
+}
+
+// Main.java
+
+public class Main {
+
+    public static void main( String[] args ) {
+
+        // accessing the public class
+
+        Animal animal = new Animal();
+
+        // accessing the public variable
+
+        animal.legCount = 4;
+
+        // accessing the public method
+
+        animal.display();
+
+    }
+
+}
+
+Private
+
+class Data {
+
+    // private variable
+
+    private String name;
+
+}
+
+public class Main {
+
+    public static void main(String[] main){
+
+        // create an object of Data
+
+        Data d = new Data();
+
+        // access private variable and field from another class
+
+        d.name = "Programiz";
+
+    }
+
+}
+
+3.Protected
+
+class Animal {
+
+    // protected method
+
+    protected void display() {
+
+        System.out.println("I am an animal");
+
+    }
+
+}
+
+class Dog extends Animal {
+
+    public static void main(String[] args) {
+
+        // create an object of Dog class
+
+        Dog dog = new Dog();
+
+         // access protected method
+
+        dog.display();
+
+    }
+
+}
+
+4.Default 
+
+package defaultPackage;
+
+class Logger {
+
+    void message(){
+
+        System.out.println("This is a message");
+
+    }
+
+}
