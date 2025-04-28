@@ -1,0 +1,27 @@
+11) When overriding a method in a subclass, can we make it more or less accessible (e.g., change protected to public)?
+
+The access specifier for an overriding method can allow more, but not less, access than the overridden method. For example, a protected instance method in the superclass can be made public, but not private, in the subclass.
+
+12) If a method is private in a parent class, can a child class use or inherit it?
+
+No, a child class cannot directly use or inherit a private method from its parent class; private methods are only accessible within the class in which they are defined. 
+
+13) What’s the difference between protected and private when a class inherits from another class?
+
+In inheritance, private members of a base class are inaccessible to derived classes, while protected members are accessible within the class itself and its derived classes.
+
+14) If a subclass is in a different package, can it access a protected variable or method from its parent class?
+
+Yes, a subclass in a different package can access protected variables or methods from its parent class, but only through its own instances, not through instances of the parent class. 
+
+15) Can we use public, private, or protected with a variable declared inside a method?
+
+Yes, a subclass in a different package can access protected variables or methods from its parent class, but only through its own instances, not through instances of the parent class. 
+
+16) Can we declare an abstract method as private?
+
+No, we cannot declare an abstract method as private because abstract methods are intended to be overridden in subclasses, and private members are not accessible to subclasses.
+
+17 How do public, private, and protected work when used with inner classes?
+
+When we use private for variables only accessible within the class. We use protected for variables accessible within the class and its subclasses and public for variables accessible from anywhere.
